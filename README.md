@@ -39,8 +39,8 @@ Discord連携機能を持つシンプルなタスクマネージャーアプリ�
 
 1. リポジトリをクローン:
    ```sh
-   git clone https://github.com/TanoueKanata/task-manager.git
-   cd task-manager
+   git clone https://github.com/TanoueKanata/task_manager.git
+   cd task_manager
    ```
 
 2. 依存関係をインストール:
