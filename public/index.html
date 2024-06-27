@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Task Manager</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <h2>タスクの追加</h2>
+    <form id="task-form">
+      <input type="text" id="title" placeholder="タスク名" required>
+      <input type="text" id="description" placeholder="タスクの説明" required>
+      <input type="date" id="deadline" placeholder="期限">
+      <select id="assignedTo">
+        <option value="">Select</option>
+      </select>
+      <button type="submit">追加</button>
+    </form>
+    <ul id="task-list"></ul>
+    <button id="send-tasks">Discordで送信</button>
+
+    <!-- 新しいユーザーを追加するフォーム -->
+    <h2>Add User</h2>
+    <form id="user-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">ユーザー追加</button>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
