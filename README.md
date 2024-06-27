@@ -23,17 +23,7 @@ Discord連携機能を持つシンプルなタスクマネージャーアプリ�
 - [Discord Developer Portal](https://discord.com/developers/docs/intro)にアクセスし、新しいアプリケーションを作成します。
 - アプリケーションにボットを追加し、ボットのトークンをコピーします。
 - ボットをDiscordサーバーに招待します。
-- チャンネルを右クリック
-
-![image](https://github.com/TanoueKanata/task-manager/assets/107596109/9d993929-f291-4eda-b44d-dd5353536693)
-
-- チャンネルIDをコピー
-
-![スクリーンショット 2024-06-27 225754](https://github.com/TanoueKanata/task-manager/assets/107596109/63915889-ee7a-4708-95f8-41d285d736af)
-
-
-
-
+- チャンネルIDをコピーしておきます。
 
 ## インストール
 
